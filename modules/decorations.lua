@@ -6,7 +6,7 @@
 hl.config({
     general = {
         gaps_in  = 8,
-        gaps_out = 5,
+        gaps_out = 10,
 
         border_size = 1,
 
@@ -23,8 +23,8 @@ hl.config({
     },
 
     decoration = {
-        rounding       = 25,
-        rounding_power = 1,
+        rounding       = 20,
+        rounding_power = 7,
 
         -- Change transparency of focused and unfocused windows
         active_opacity   = 1.0,
@@ -39,8 +39,8 @@ hl.config({
 
         blur = {
             enabled   = true,
-            size      = 3,
-            passes    = 1,
+            size      = 10,
+            passes    = 3,
             vibrancy  = 0.1696,
         },
     },
